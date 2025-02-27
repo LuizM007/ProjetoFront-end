@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    background-image: url('assets/madara.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+
+}
+header {
+    font-family: 'Georgia', serif;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #961a11;
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+.historia {
+    /* Define o fundo como semitransparente, criando um efeito escuro */
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 40px;
+    padding: 1.4rem;
+    width: 80%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    /* Define a altura da linha para espaçar melhor as linhas de texto */
+    line-height: 1.6;
+    /* Define uma largura máxima para a seção (evitando que fique muito larga) */
+    max-width: 1000px;
+}
+
+.gradiente{
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /*Apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+    color: black;
+    filter: brightness(230%);
+}
+.cor{
+    background-image: linear-gradient(to bottom, rgb(207, 1, 1), rgb(138, 2, 2), rgb(141, 0, 94));
+    background-clip: text;
+    -webkit-background-clip: text;
+    /*Apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+    color: black;
+    filter: brightness(150%);
+}
+.historia p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+
+.imagem img {
+    width: 100%;
+    /* Define a largura máxima da imagem como 500px */
+    max-width: 500px;
+    /* Faz com que a imagem seja exibida como um bloco, centralizando */
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    /* Adiciona uma sombra na imagem para dar um efeito de profundidade */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Estilo para a seção de curiosidades */
+.curiosidades {
+    /* Define o fundo como semitransparente, criando um efeito escuro */
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    /* Adiciona um espaçamento interno de 30px */
+    padding: 2rem;
+    
+    /* Adiciona uma margem superior de 40px para separar da seção anterior */
+    margin-top: 40px;
+    
+    /* Define a largura da seção como 80% da tela */
+    width: 80%;
+    
+    /* Define os cantos da seção com bordas arredondadas */
+    border-radius: 15px;
+    
+    /* Define a largura máxima da seção */
+    max-width: 1000px;
+    
+    /* Adiciona uma margem de 40px em torno da seção */
+    margin: 40px auto;
+}
+
+/* Estilo para a lista de curiosidades */
+.curiosidades ul {
+    /* Remove o marcador de lista */
+    list-style-type: none;
+    
+    /* Remove o preenchimento da lista */
+    padding-left: 0;
+}
+
+/* Estilo para os itens da lista de curiosidades */
+.curiosidades li {
+    /* Define a cor de fundo para um tom mais escuro */
+    background-color: #444;
+    
+    /* Adiciona um preenchimento interno de 12px */
+    padding: 12px;
+    
+    /* Adiciona uma margem de 10px entre os itens da lista */
+    margin: 10px 0;
+    
+    /* Adiciona uma transição suave para a cor de fundo quando o item for hovered */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para quando o usuário passa o mouse sobre um item da lista */
+.curiosidades li:hover {
+    /* Muda a cor de fundo para um tom mais claro quando o item for hoverizado */
+    background-color: #666;
+}
+
+.link {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    margin-top: 40px;
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.link nav{
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
